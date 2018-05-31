@@ -11,24 +11,12 @@ font-family: 'PT Sans', sans-serif;
  font-size: 0.9em
 }
   
-img {
-  filter: grayscale(10)
-
+.image {
+  filter: grayscale(1);
 }
-.grayscale {
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
-    transition: 1s;
-   }
-   .grayscale:hover {
-    -webkit-filter: grayscale(0);
-    filter: grayscale(0);
-   }
-.span{
-background: #da4453;
-
+.image:hover{ 
+filter:none
 }
-
 .b-link{					/* Класс для ссылки. Красный прямоугольник. */
 	width: 120px;
 	height: 190px;
